@@ -105,3 +105,9 @@ dist
 
 # package-lock.json
 package-lock.json
+
+# dir datos postgres
+postgres_data
+
+# dir datos pg
+PGADMIN_DEFAULT
