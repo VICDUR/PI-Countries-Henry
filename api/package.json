@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "docker-up": "docker-compose --env-file .env up postgres_countries pgadmin_countries",
+    "docker-down": "docker-compose down",
+    "bash-postgres":"docker-compose exec postgres_countries bash",
     "start": "nodemon -L",
     "test": "mocha -w ./tests/**/*.spec.js"
   },
